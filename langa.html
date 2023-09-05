@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: gainsboro;">
+<body style="background-color: rgb(31, 66, 95)">
 
 <header>
     <ul class="navbar">
@@ -21,7 +21,7 @@
 
     <div class="header">
         <h1>LANGA MONELISI MADUBELA</h1>
-        <p>junior software developer</p>
+        <p><b>Sofwtware Developer</b></p>
     </div>
 
     <div class="bg-image">
@@ -47,6 +47,46 @@
 </form>
 
 
+<script>
+    function changeImage() {
+      var img = document.getElementById("profileImage");
+      img.src = "../cam7.jpeg"; // Replace with the path to your new image
+    }
+  </script>
+</head>
+<body>
+  <script>
+    var i = 0;
+    var txt = ' In order to succed you you need to succed. ';
+    var speed = 50;
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+    
+  </script>
+
+  <h1>About Me</h1>
+
+  <p id="demo"></p>
+  <button onclick="typeWriter()">Click me</button>
+
+  <p>
+    I am Madubela Langa Monelisi, and most people call me "Mane". I was born on April 30, 2000, in Carletonville, Johannesburg. I grew up in Mthatha, Eastern Cape. I started schooling at Lutoli J.S.S. and Bensile J.S.S., and I attended Attwell Madala High School. After matriculation, I was accepted into Walter Sisulu University, where I pursued a Diploma in Information Communication Technology in Business Analysis. I also completed an online course in Data Science. I worked at Paper Jam Solutions, where I gained knowledge about fixing and operating printing machines. I also worked at Lutoli J.S.S. as an E-cadre. I have a passion for playing the keyboard, which I find therapeutic. I come from a supportive family of five, including my mother Mamtshawe and my three brothers. I'm the youngest in the family.
+  </p>
+
+  <figure>
+    <img id="profileImage" src="MicrosoftTeams-image (6).png">
+    <figcaption></figcaption>
+  </figure>
+
+  <button onclick="changeImage()">Change Image</button>
+
+ 
 
 
 
