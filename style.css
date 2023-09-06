@@ -35,7 +35,7 @@ ul.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #a08dcc;
+  background-color: #837d92;
 }
 
 /* navigation bar items */
@@ -80,7 +80,7 @@ ul.navbar {
 /*  color on hover */
 .navbar a:hover {
   background-color: #ddd;
-  color: rgb(163, 185, 233);
+  color: rgb(45, 46, 48);
 }
 
 body {
@@ -92,7 +92,7 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #6ea7ce;
+  background: #dbcdcd;
   color: white;
 }
 
@@ -264,7 +264,7 @@ body {
 
 /* the active navigation menu link */
 .navbar li a.active {
-  background-color: #0f110f;
+  background-color: #f8fff8;
 }
 
 body {
@@ -299,7 +299,7 @@ body {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(201, 165, 165, 0.1);
 }
 
 h1 {
@@ -340,3 +340,4 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #1e2227;
 }
+
