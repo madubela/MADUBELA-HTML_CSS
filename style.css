@@ -310,7 +310,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%;
+  width: 70%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -335,8 +335,16 @@ button[type="submit"]:hover {
   background-color: #1e2227;
 }
 
-
-
 .image-slider-wrapper{
   overflow: hidden;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  text-align: center;
 }
