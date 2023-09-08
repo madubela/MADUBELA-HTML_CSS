@@ -293,14 +293,8 @@ body {
   background-color: #f4f4f4;
 }
 
-.container {
-  max-width: 600px;
-  margin: auto;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(201, 165, 165, 0.1);
-}
+
+ 
 
 h1 {
   text-align: center;
@@ -341,3 +335,8 @@ button[type="submit"]:hover {
   background-color: #1e2227;
 }
 
+
+
+.image-slider-wrapper{
+  overflow: hidden;
+}
