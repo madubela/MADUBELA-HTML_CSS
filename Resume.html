@@ -5,11 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="style.css">
+    <script src="mane.js"></script>
     <title><h>Resume</h></title>
-</head>
-
-<body>
-    
 </head>
 <body>
 
@@ -22,5 +19,34 @@
     <li><a href="Resume.html">Resume</a></li>
 </ul>  
     
+
+
+<
+
+
+
+<script>
+    let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    const slides = document.querySelectorAll(".slide");
+
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    slideIndex++;
+
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+
+    setTimeout(showSlides, 2000); // Change slide every 2 seconds
+}
+</script>
+
 </body>
 </html>
