@@ -14,10 +14,10 @@
     <ul class="navbar">
         <li><a class="active" href="langa.html"></i> Home</a></li>
         <li><a href="qualification.html"></i> Qualification</a></li>
-        <li><a href="contact.html"></i> Contact Me</a></li>
-        <li><a href="About.html"><i></i> About Me</a></li>
+        <li><a href="#Contact Me"></i> Contact Me</a></li>
+        <li><a href="#About Me"><i></i> About Me</a></li>
         <li><a href="projects.html"><i></i> Projects</a></li>
-        <li><a href="Resume.html"><i></i> Resume</a></li>
+      
     </ul>
 
     <div class="header">
@@ -31,27 +31,38 @@
     <li><img src="./cam8.jpeg"></li>
    </ul>
     </div>
-
   </div>
 
-<!--Contact Me-->
-<h1>Contact Us</h1>
-<form action="submit_form.php" method="post">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-    
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="4" required></textarea>
-    
-    <button type="submit">Submit</button>
-</form>
+
+  <div class="container" id="Contact Me">
+
+    <h1>Contact Me</h1>
+
+    <form action="form.php" method="post" onsubmit="return validateForm()">
+
+        <label for="name">Name:</label>
+
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+
+    </form>
+
+</div>
 
 
+
+
+<a class="My Resume" href="Langa Monelisi Madubela CV.pdf" download="Sibu Resume" ><button>Download CV</button></a>
+
+
+<div class="About Me" id="About Me">
   <h1>About Me</h1>
-
   <p id="demo"></p>
   <button onclick="typeWriter()">Click me</button>
 
@@ -74,6 +85,9 @@
     <figcaption><b>Software Developer</b></figcaption>
   </figure>
 
+</div>
+ 
+
 
 
   <div class="footer">
@@ -86,3 +100,4 @@
 </body>
 </html>
 
+ 
