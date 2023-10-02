@@ -346,31 +346,24 @@ button[type="submit"]:hover {
   text-align: center;
 }
 
-  /* Style for the service boxes */
-  .box {
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
-    padding: 20px;
-    text-align: center;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  }
+  
+ /* Style for the button */
+ #scrollUpButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
 
-  /* Style for the service icons */
-  .s-icons {
-    font-size: 40px;
-    margin-bottom: 15px;
-  }
-
-  /* Style for the service titles */
-  h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  /* Style for the service descriptions */
-  p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
+/* Style for the button on hover */
+#scrollUpButton:hover {
+  background-color: #0056b3;
+}
